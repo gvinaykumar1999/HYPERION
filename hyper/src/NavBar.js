@@ -25,4 +25,6 @@ const NavBar = () => {
   );
 };
 
+/* Git test */
+
 export default NavBar;
