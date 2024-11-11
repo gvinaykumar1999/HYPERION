@@ -35,7 +35,7 @@ export default function Section1() {
           </div>
           <h1 className="text-4xl text-center text-black pt-5 font-serif">Easiest wins in crypto</h1>
           <h2 className="text-lg text-center pt-5 font-serif">Hyperion is the simplest + easiest platform to generate the best returns in crypto.</h2>
-          <button className="flex mx-auto mt-10 bg-white shadow-2xl text-black font-bold border-black border-2 py-4 px-8 focus:outline-none rounded-3xl  text-xl text-center">
+          <button className="flex mx-auto mt-10 bg-white shadow-xl text-black font-bold border-black border-2 py-4 px-8 focus:outline-none rounded-3xl  text-xl text-center">
             JOIN WAITLIST  <img src={arrow} alt="down-arrow" width={60} height={60} className="-rotate-90 -m-3.5 ml-1 "  />
           </button>
 

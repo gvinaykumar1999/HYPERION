@@ -1,5 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
+import LowRiskGraph from "./images/LowRiskGraph.png" ;
+import MediumRiskGraph from './images/MediumRiskGraph.png';
 
 function Section2() {
   var settings = {
@@ -37,31 +39,37 @@ function Section2() {
     ]
   };
   return (
-    <div className="slider-container">
+    <div className="slider-container mt-12 ">
       <Slider {...settings}>
         <div>
-          <h3>1</h3>
+          <h3 className="font-bold text-black m-5">LOW RISK</h3>
+          <img src={LowRiskGraph} alt="LowRiskGraph" className="ml-5 w-[95%] h-[95%]" />
         </div>
         <div>
-          <h3>2</h3>
+          <h3 className="font-bold text-black m-5">MEDIUM RISK</h3>
+          <img src={MediumRiskGraph} alt="MediumRiskGraph" className="ml-5 w-[95%] h-[95%]" />
         </div>
         <div>
-          <h3>3</h3>
+          <h3 className="font-bold text-black m-5">LOW RISK</h3>
+          <img src={LowRiskGraph} alt="LowRiskGraph" className="ml-5 w-[95%] h-[95%]" />
         </div>
         <div>
-          <h3>4</h3>
+          <h3 className="font-bold text-black m-5">MEDIUM RISK</h3>
+          <img src={MediumRiskGraph} alt="MediumRiskGraph" className="ml-5 w-[95%] h-[95%]" />
+        </div> <div>
+          <h3 className="font-bold text-black m-5">LOW RISK</h3>
+          <img src={LowRiskGraph} alt="LowRiskGraph" className="ml-5 w-[95%] h-[95%]" />
         </div>
         <div>
-          <h3>5</h3>
+          <h3 className="font-bold text-black m-5">MEDIUM RISK</h3>
+          <img src={MediumRiskGraph} alt="MediumRiskGraph" className="ml-5 w-[95%] h-[95%]" />
+        </div> <div>
+          <h3 className="font-bold text-black m-5">LOW RISK</h3>
+          <img src={LowRiskGraph} alt="LowRiskGraph" className="ml-5 w-[95%] h-[95%]" />
         </div>
         <div>
-          <h3>6</h3>
-        </div>
-        <div>
-          <h3>7</h3>
-        </div>
-        <div>
-          <h3>8</h3>
+          <h3 className="font-bold text-black m-5">MEDIUM RISK</h3>
+          <img src={MediumRiskGraph} alt="MediumRiskGraph" className="ml-5 w-[95%] h-[95%]" />
         </div>
       </Slider>
     </div>
