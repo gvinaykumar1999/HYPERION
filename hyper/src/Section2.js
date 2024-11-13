@@ -1,79 +1,14 @@
-import React from "react";
-import Slider from "react-slick";
-import LowRiskGraph from "./images/LowRiskGraph.png" ;
-import MediumRiskGraph from './images/MediumRiskGraph.png';
+import React from 'react'
+import Animation1 from "./images/1Animation.gif"
+import Animation2 from "./images/2Animation.gif"
 
-function Section2() {
-  var settings = {
-    dots: true,
-    infinite: false,
-    speed: 600,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    initialSlide: 0,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
-  };
+export default function Section2() {
   return (
-    <div className="slider-container mt-12 ">
-      <Slider {...settings}>
-        <div>
-          <h3 className="font-bold text-black m-5">LOW RISK</h3>
-          <img src={LowRiskGraph} alt="LowRiskGraph" className="ml-5 w-[95%] h-[95%]" />
-        </div>
-        <div>
-          <h3 className="font-bold text-black m-5">MEDIUM RISK</h3>
-          <img src={MediumRiskGraph} alt="MediumRiskGraph" className="ml-5 w-[95%] h-[95%]" />
-        </div>
-        <div>
-          <h3 className="font-bold text-black m-5">LOW RISK</h3>
-          <img src={LowRiskGraph} alt="LowRiskGraph" className="ml-5 w-[95%] h-[95%]" />
-        </div>
-        <div>
-          <h3 className="font-bold text-black m-5">MEDIUM RISK</h3>
-          <img src={MediumRiskGraph} alt="MediumRiskGraph" className="ml-5 w-[95%] h-[95%]" />
-        </div> <div>
-          <h3 className="font-bold text-black m-5">LOW RISK</h3>
-          <img src={LowRiskGraph} alt="LowRiskGraph" className="ml-5 w-[95%] h-[95%]" />
-        </div>
-        <div>
-          <h3 className="font-bold text-black m-5">MEDIUM RISK</h3>
-          <img src={MediumRiskGraph} alt="MediumRiskGraph" className="ml-5 w-[95%] h-[95%]" />
-        </div> <div>
-          <h3 className="font-bold text-black m-5">LOW RISK</h3>
-          <img src={LowRiskGraph} alt="LowRiskGraph" className="ml-5 w-[95%] h-[95%]" />
-        </div>
-        <div>
-          <h3 className="font-bold text-black m-5">MEDIUM RISK</h3>
-          <img src={MediumRiskGraph} alt="MediumRiskGraph" className="ml-5 w-[95%] h-[95%]" />
-        </div>
-      </Slider>
-    </div>
-  );
-}
+    <div  className='bg-[#161616]' >
 
-export default Section2;
+      <img src={Animation1} alt='Animation1' className=' py-28' />
+      <img src={Animation2} alt='Animation2' className='float-right w-[35%] h-[35%] ' />
+
+    </div>
+  )
+}

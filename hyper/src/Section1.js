@@ -1,6 +1,6 @@
 import React from "react";
 import arrow from "./images/ArrowDownButton.gif";
-import Section2 from "./Section2";
+import Section1A from "./Section1A";
 
 export default function Section1() {
   return (
@@ -40,7 +40,7 @@ export default function Section1() {
           </button>
 
         </div>
-        <Section2 />
+        <Section1A />
 
       </section>
     </div>
