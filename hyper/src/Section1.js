@@ -4,7 +4,7 @@ import Section1A from "./Section1A";
 
 export default function Section1() {
   return (
-    <div>
+    <div >
       <section className="text-gray-600 body-font">
         <div className="container px-0 py-12 w-1/2 mx-auto">
           <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">

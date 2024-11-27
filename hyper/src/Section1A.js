@@ -38,11 +38,11 @@ function Section1A() {
     ]
   };
   return (
-    <div className="slider-container mt-12 w-[100%]  ">
+    <div className="slider-container relative mt-12 w-[100%]  ">
       <Slider {...settings} className="w-[1920]" > 
         <div >
           <h3 className="font-bold text-black m-5">LOW RISK</h3>
-          <img src={LowRiskGraph} alt="LowRiskGraph" className="ml-5 w-[95%] h-[95%]  " />
+          <img src={LowRiskGraph} alt="LowRiskGraph" className="ml-5 w-[95%] h-[95%]   " />
         </div>
         <div>
           <h3 className="font-bold text-black m-5">MEDIUM RISK</h3>
